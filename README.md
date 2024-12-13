@@ -9,3 +9,5 @@ cd ~/.config
 mkdir nvimexperiment 
 NVIM_APPNAME=nvimexperiment nvim init.lua
 ```
+
+* Run `:nnoremap <space>` to see what bindings do you have starting with `<space>`
