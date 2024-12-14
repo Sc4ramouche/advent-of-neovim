@@ -11,3 +11,4 @@ NVIM_APPNAME=nvimexperiment nvim init.lua
 ```
 
 * Run `:nnoremap <space>` to see what bindings do you have starting with `<space>`
+* Explore what does globally defined table contains with `:lua =`, i.e. `:lua =vim.api`
