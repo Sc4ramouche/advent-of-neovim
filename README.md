@@ -14,6 +14,7 @@ NVIM_APPNAME=nvimexperiment nvim init.lua
 * Explore what does globally defined table contains with `:lua =`, i.e. `:lua =vim.api`
 * execute simple commands with `!`, i.e. `:!mkdir dir_name`
 * `after` folder is called this way as neovim runs the scripts specified there after the initialisation
+* entire file can be indented with `gg=G`
 
 ### Package management
 

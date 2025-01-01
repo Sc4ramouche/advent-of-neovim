@@ -2,7 +2,8 @@ print("advent!")
 
 require("config.lazy")  -- reflects folder structure of config -> lazy, not config.lazy file
 
-vim.opt.shiftwidth = 4
+vim.opt.shiftwidth = 4  -- indentation
+vim.opt.clipboard = "unnamedplus"  -- allows to paste from clipboard
 
 vim.keymap.set("n", "<space><space>x", "<cmd>source %<CR>")  -- source current file
 vim.keymap.set("n", "<space>x", ":.lua<CR>")  -- run current line Lua
